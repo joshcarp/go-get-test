@@ -1,5 +1,5 @@
 package main 
 
 func main(){
-	println("First push")
+	println("Second push")
 }
