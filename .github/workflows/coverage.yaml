@@ -1,0 +1,27 @@
+name: Coverage
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: Run coverage tool
+        uses: anz-bank/go-acc@v0.4.0
+        with:
+          soft_target: 87
+          hard_target: 80
+          ignore: "foo/ignored"
