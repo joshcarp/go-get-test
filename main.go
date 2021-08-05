@@ -1,4 +1,4 @@
-package dcvv2
+package main
 
 func main(){
 	println("Mod Tag")
