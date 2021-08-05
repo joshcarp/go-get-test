@@ -1,3 +1,3 @@
-module github.com/joshcarp/go-get-test/foo/bar/dcvv2/v1
+module github.com/joshcarp/go-get-test/foo/bar/dcvv2
 
 go 1.14
