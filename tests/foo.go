@@ -1,5 +1,5 @@
-package tests
+package main
 
-func TestFoo() string {
-	return "hello"
+func main() {
+	print("hello1")
 }
