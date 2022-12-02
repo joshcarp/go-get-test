@@ -1,5 +1,5 @@
 package main
 
 func main() {
-	print("hello1")
+	print("hello-removed-gomodule")
 }
